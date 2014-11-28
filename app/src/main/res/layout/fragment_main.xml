@@ -8,7 +8,7 @@
     android:orientation="horizontal">
 
     <EditText
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:id="@+id/edit_message"
         android:hint="@string/edit_message"
@@ -18,6 +18,5 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button_send"
-        android:id="@+id/button_send"
-        android:layout_weight="1" />
+        android:id="@+id/button_send" />
 </LinearLayout>
