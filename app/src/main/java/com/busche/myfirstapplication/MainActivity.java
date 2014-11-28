@@ -1,9 +1,9 @@
 package com.busche.myfirstapplication;
 
-import android.app.Activity;
 import android.app.Fragment;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -12,7 +12,7 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 
 
-public class MainActivity extends Activity {
+public class MainActivity extends ActionBarActivity {
     public final static String EXTRA_MESSAGE = "com.busche.myfirstapplication.MESSAGE";
 
     @Override
